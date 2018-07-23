@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>You Vs. Computer</title>
+        <link rel="stylesheet" type="text/css" href="/css/gameplayButton">
+        <link rel="stylesheet" type="text/css" href="/css/body">
+        <link rel="stylesheet" type="text/css" href="/css/writingFormatting">
+        <script type="text/javascript" src="/js/vsComputer"></script>
+    </head>
+    <body>
+        <h1 style="text-align:center">YOU VS. THE COMPUTER</h1>
+        <p style="text-align:center" class="messagesToUser" id="sessionID" >Session ID:</p>
+        <p style="text-align:center"id="scoreboard">0 - 0</p>
+        <div style="text-align: center">
+            <p class="messagesToUser" id="messageToUser">Please make your selection in: </p>
+            <p id="userChoiceClock"></p>
+            <button onclick="setUserSelection(ROCK)">ROCK</button><br><br>
+            <button onclick="setUserSelection(PAPER)">PAPER</button><br><br>
+            <button onclick="setUserSelection(SCISSORS)">SCISSORS</button><br><br><br>
+            <button id="submitBtn" onclick="playChoices()">SUBMIT</button>
+            <p class="messagesToUser" id="resultDisplay"></p>
+        </div>
+        <img id="userSelectionImg">
+        <img id="computerSelectionImg">
+    </body>
+</html>

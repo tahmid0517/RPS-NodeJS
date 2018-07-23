@@ -1,0 +1,11 @@
+body
+{
+    background-color: #EDEDED;
+    width: 100%;
+    height: 100%;
+}
+
+div.centeredDivs
+{
+    text-align: center;
+}

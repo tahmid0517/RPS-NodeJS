@@ -1,0 +1,27 @@
+h1
+{
+    font-style: italic;
+    font-family: "Verdana";
+    color: "black";
+}
+
+#scoreboard
+{
+    font-family: "Arial Black";
+    color: black;
+    font-size: 230%;
+}
+
+.messagesToUser
+{
+    font-family: "Arial Black";
+    color: black;
+    font-size: 90%;
+}
+
+#userChoiceClock
+{
+    font-family: "Arial Black";
+    color: black;
+    font-size: 160%;
+}
